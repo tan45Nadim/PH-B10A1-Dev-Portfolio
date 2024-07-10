@@ -296,3 +296,72 @@ nav button {
     background: rgba(255, 223, 0, 0.05);
     padding: 40px;
 }
+
+/* support section  */
+.support-container {
+    background-image: url("../assets/handshake.jpg");
+    width: 1140px;
+    height: 350px;
+
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+
+.support-text h2 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+}
+
+.support-text p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+.support-feedback {
+    width: 684px;
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: flex-start; */
+    margin: 0 auto;
+    margin-top: 25 px;
+}
+
+.support-feedback textarea {
+    width: 530px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+}
+
+.support-feedback button {
+    width: 115px;
+    height: 57px;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
