@@ -30,11 +30,11 @@ nav button {
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     /* opacity: 0.8; */
-    
 }
 
 /* banner styles */
 .banner-container {
+    display: flex;
     background-image: url("../assets/Hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,12 +45,15 @@ nav button {
     margin-top: 36px;
     background-size: cover;
     /* border: dashed; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .banner-content {
     display: flex;
     flex-direction: column;
-    /* width: 998px; */
+    width: 998px;
     height: 581px;
     align-items: center;
     justify-content: center;
@@ -63,7 +66,7 @@ nav button {
 
 .banner-content h1 {
     color: rgb(13, 19, 33);
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 800;
     line-height: 68px;
     letter-spacing: 0%;
@@ -73,7 +76,7 @@ nav button {
 
 .banner-content p {
     color: rgb(13, 19, 33);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
@@ -107,6 +110,8 @@ nav button {
     justify-content: flex-start;
     align-items: center;
     padding: 80px 97px 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
 }
 
 .web-dev-d1 {
@@ -182,4 +187,42 @@ nav button {
     font-size: 20px;
     font-weight: 600;
     text-align: center;
+}
+
+/* inspiration section styles */
+.inspiration-container {
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inspiration-container h2 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.inspiration-container p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.inspiration-video {
+    /* width: 1076px;
+    height: 550px; */
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-top: 60px;
 }
